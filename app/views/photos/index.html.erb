@@ -18,7 +18,8 @@
       <a href="http://localhost:3000/photo_details/<%= photo.id %>">Show</a>
     </td>
     <td>
-      <a href="http://localhost:3000/edit_photo/<%= photo.id %>">Edit</a>
+      <!-- Changed edit_photo to edit_photo_form -->
+      <a href="http://localhost:3000/edit_photo_form/<%= photo.id %>">Edit</a>
     </td>
     <td>
       <a href="http://localhost:3000/delete_photo/<%= photo.id %>">Delete</a>
@@ -26,3 +27,4 @@
   </tr>
 <% end %>
 </table>
+<p><a href="http://localhost:3000/new_photo_form">Create a new photo</a></p>
